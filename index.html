@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>final countdown</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lato" rel="stylesheet"> 
+</head>
+
+<body>
+    <section>
+    	<article class="intro">
+    		<h1>Make life easier</h1>
+	    	<h2>Organize your time</h2>
+	    	<button id="start">start</button>
+    	</article>
+    	<article class ="timer">
+        	  <button data-time="300" class="item">Snooze</button>
+		      <button data-time="900" class="item">Shower</button>
+		      <button data-time="600" class="item">Make up</button>
+		      <button data-time="1200" class="item">Breakfast</button>
+		      <button data-time="3600" class="item">Lunch </button>
+		      <form name="customForm" id="custom" class="item">
+		        <input type="text" name="minutes" placeholder="minutes">
+			  </form>
+        </article>
+    	<article class ="displayingTime">
+    		<h1 id="timerDisplay"></h1>
+        	<p id="endTime"></p>
+    	</article>
+        
+    </section> 
+    <audio src="sounds/alert.wav"></audio>
+    <script src="app.js"></script>
+</body>
+
+</html>
