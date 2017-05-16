@@ -8,12 +8,16 @@ body {
     background-color: #005599;
     font-family: 'Lato', sans-serif;
     color: #efefef;
+    height: 100vh;
+    overflow-y: hidden;
 }
+
 section {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 }
+
 .invisible {
 	display: none;
 }
